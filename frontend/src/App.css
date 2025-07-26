@@ -1,0 +1,279 @@
+
+.landingContainer {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(10, 25, 47, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    z-index: 1000;
+    justify-content: space-between;
+    color: white; /* Ensure navbar text is white */
+    position: sticky;
+    top:0;
+    height:4rem;
+    padding-top:1rem;
+    padding-left:1rem;
+    padding-right:1rem;
+    border-bottom: rgba(255,255,255,0.2) solid 0.1px;
+}
+
+.navList {
+    display: flex;
+    gap: 30px;
+}
+.navList p{
+  font-weight: 700;
+  opacity:0.8;
+}
+.navList p:hover{
+  opacity: 1;
+}
+.getStarted {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    color: white; 
+    padding-left:1rem;
+}
+
+.getStarted h1 {
+    color: white; /* Specific color for h1 inside getStarted */
+}
+
+.image img {
+    height: 450px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit; /* Make sure link inherits the color from parent */
+}
+
+.signin {
+    color: white; /* Ensure signin text is white */
+}
+
+.Authentication {
+    color: white; /* Ensure Authentication text is white */
+}
+
+Additional specific styling for span if needed
+.getStarted h1 span {
+    color: #1E90FF; /* Ensure color is blue for the span element */
+}
+.landingPageContainer {
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+  
+  .landingPageContainer nav {
+    padding-inline: 1.2rem;
+    padding-block: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .landingPageContainer nav h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  
+  .landingPageContainer nav .navlist {
+    display: flex;
+    gap: 1.6rem;
+    cursor: pointer;
+  
+  }
+  
+  .landingMainContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    height: 80vh;
+    align-items: center;
+  }
+  
+  .landingMainContainer>div:nth-child(1) {
+    font-size: 2.2rem;
+  }
+  
+  .landingMainContainer>div:nth-child(1) div[role='button'] {
+    background: #D97500;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 1.9rem;
+  }
+  
+  .landingMainContainer>div:nth-child(1) div[role='button'] a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7rem;
+  }
+  
+  .landingMainContainer>div:nth-child(2) img {
+    height: 70vh;
+    width: auto;
+  }
+  
+  .navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    text-align: center;
+  
+  }
+  .meetContainer {
+    display: flex;
+    padding-inline: 20px;
+    height: 80vh;
+    gap: 10vw;
+    justify-content: center;
+  }
+  
+  
+  
+  .leftPanel {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .rightPanel {
+    display: flex;
+    align-items: center;
+  }
+  
+  .rightPanel > img {
+    width: 30vw;
+    height: auto;
+    border-radius: 20px;
+  }
+  .stats{
+    background-color: black;
+    color: white;
+  }
+  .score{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:250px;
+  }
+  .heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.heading p {
+    max-width: 80%; 
+    text-align: center; 
+    font-size: 2rem; 
+    font-weight: bold; 
+}
+.scoreElement{
+  border:rgba(251, 251, 251, 0.5) solid 1px;
+  border-radius: 5px;
+  padding:2rem;
+  box-shadow: black 2px 2px 2px;
+}
+.scoreElement:hover{
+  box-shadow: rgba(245, 244, 244,0.5) 2px 2px 2px;
+}
+.cardfeaturecontainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap:20px;
+}
+.cardfeaturecontainer1{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  gap:20px;
+}
+.cardfeature{
+  width:400px;
+  border:rgba(251, 251, 251, 0.5) solid 1px;
+  border-radius: 5px;
+  padding:1.5rem;
+  background-color: #161633;
+  text-align: center;
+}
+.cardfeature:hover{
+  box-shadow: rgba(245, 244, 244,0.5) 2px 2px 2px;
+}
+.cardfeature p{
+  color:#d5d7d8ef;
+}
+.feature h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.cardfeature1{
+  width:400px;
+  border:rgba(251, 251, 251, 0.5) solid 1px;
+  border-radius: 5px;
+  padding:1.5rem;
+  background-color: #2C2F5C;
+  text-align: center;
+}
+.cardfeature1:hover{
+  box-shadow: rgba(245, 244, 244,0.5) 2px 2px 2px;
+}
+.cardfeature1 p{
+  color:#d5d7d8ef;
+}
+.cardfeature1 img{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+}
+.review h1{
+  text-align: center;
+}
+.footer{
+  padding-top:3rem;
+  padding-bottom: 3rem;
+  display:flex;
+  flex-wrap: wrap;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  gap:23rem;
+  background-color: rgba(10, 25, 47, 0.5);
+  border-bottom: rgba(255,255,255,0.4) solid 0.1rem;
+}
+.getintouch div{
+  display:flex;
+}
+.connect div {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+.connect a{
+  text-decoration: none;
+  color:white;
+}
+.connect div:hover{
+  opacity: 1;
+}

@@ -71,4 +71,4 @@ connectly/
 ```
 
 
-*Made with ❤️ by the ConnectLy Team*
+*Made with ❤️ by Himanshu Pandey*

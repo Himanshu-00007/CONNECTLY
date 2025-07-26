@@ -2,6 +2,8 @@
 import express from "express";
 import mongoose from "mongoose";
 import httpStatus from "http-status";
+import dotenv from "dotenv";
+dotenv.config();
 import cors from "cors";
 import {createServer} from "node:http";
 import { Server } from "socket.io";
@@ -17,7 +19,7 @@ app.use("/api/v1/users",userRoutes);
 
 
 const start=async()=>{
-    const connectionDb=await mongoose.connect("mongodb+srv://dbUser:changeemail@cluster0.fni5j.mongodb.net/");
+    const connectionDb=await mongoose.connect(process.env.MONGO_URL);
     console.log(`mongodb connected DB host: ${connectionDb.connection.host}`);
     server.listen(8000,()=>{
         console.log("listening on port 8000");

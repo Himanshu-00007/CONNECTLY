@@ -35,7 +35,7 @@ const io = connectToSocket(server);
 // ✅ MongoDB + Server Start
 const start = async () => {
   try {
-    const connectionDb = await mongoose.connect(process.env.MONGO_URL);
+    const connectionDb = await mongoose.connect(import.meta.env.VITE_MONGO_URL);
     console.log(`MongoDB connected: ${connectionDb.connection.host}`);
 
     // ✅ Use Render's dynamic PORT
